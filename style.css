@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+h1 {
+    text-align: center;
+    color: #005b96;
+}
+
+h2 {
+    color: #0077b6;
+}
+
+.encuesta form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.pregunta {
+    font-weight: bold;
+}
+
+label {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    cursor: pointer;
+    line-height: 1.5;
+}
+
+button {
+    align-self: flex-start;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #0077b6;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005b96;
+}
